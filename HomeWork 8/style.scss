@@ -1,0 +1,122 @@
+@import "reset";
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    width:1450px ;
+    margin-left: 83px;
+    margin-right: 67px;
+    margin-top: 48px;
+    .main-nav{
+        display: flex;
+        align-items: center;
+    
+    }
+    .header{
+            display: flex;
+            justify-content: space-between;
+    }
+        ul{
+            display: flex;
+            margin-left: 126px;
+            
+            list-style: none;
+            li{
+             margin-left:40px ;
+            }
+            a{
+            font-weight: 700;
+            text-decoration: none;
+            color:#1B0A42;
+            font-size: 16px;
+            line-height: 24px;
+            } 
+            :hover a {
+                color:#248ac5;
+            }
+        }
+    .login-section {
+        .Sign-In{
+            font-family: 'Roboto', sans-serif;
+            border: none;
+            outline: none;
+            background-color: #fff;
+            color:#1B0A42;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .Sing-Up{
+            width: 120px;
+            height: 60px;
+            background-color:#33A2E0;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color:#fff;
+            outline: none; 
+            border: none;
+            border-radius: 6px;
+            
+        }  
+    }
+}
+.main{ 
+    display: flex;
+
+    .main-text{
+        width: 560px;
+        height: 257px;
+        margin-left: 200px;
+        margin-top: 203px;
+    }
+
+    h1{
+    
+        font-family: Ramaraja;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 76px;
+        color:#1B0A42;
+    }
+    h2{
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        color: #9A9A9A;
+    }
+}
+    img {
+        display: flex;
+        margin-top: 131px;
+}
+.Learn-More{
+    margin-top: 50px; 
+    width: 152px;
+    height: 64px;
+    background-color:#33A2E0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#fff;
+    outline: none; 
+    border: none;
+    border-radius: 6px;
+}
+
+

@@ -1,0 +1,173 @@
+body{
+    background-color: white;
+    width: 900px;
+    margin:0 auto;
+}
+form{
+    border: 1px solid #6a8d4d;
+}
+header{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    background-color: #c1eb9f;
+}
+header p {
+    margin: 0px;
+    font-size:20px;
+    font-weight: bold;
+}
+header select{
+    background: transparent;
+    border: none;
+    margin-left: 30px;
+}
+.left_column,.right_column{
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.form_item input{
+    width: 200px;
+    height: 20px;
+}
+.first-name span::after{
+    content: "*";
+    color:red;
+}
+.first-name input{
+    margin-left: 50px;
+}
+.last-name{
+    margin-top: 20px;
+}
+.last-name span::after{
+    content: "*";
+    color:red;
+}
+.last-name input{
+    margin-left: 50px;
+}
+.address{
+    margin-top: 20px;
+    display: flex;
+}
+
+.address input{
+    width: 200px;
+    height: 100px;
+    margin-left: 73px;
+
+}
+.city{
+    margin-top: 20px;
+}
+.city input{
+    margin-left: 97px;
+}
+.state{
+    margin-top: 20px;
+}
+.state select{
+    margin-left: 92px;
+}
+.zip{
+    margin-top: 20px;
+}
+.zip input{
+    margin-left: 100px;
+}
+.home-phone{
+    margin-top: 20px;
+}
+.home-phone span::after{
+    content: "*";
+    color:red;
+}
+.home-phone input{
+    margin-left: 32px;
+}
+.fax-number{
+    margin-top: 20px;
+}
+.fax-number input{
+    margin-left: 40px;
+}
+.website{
+    margin-top:20px;
+}
+.double-answer span{ 
+
+margin-left:110px ; 
+}
+.url-form input{
+    width: 140px;
+    margin-left: 41px;
+}
+.link-form{
+    margin-top: 10px;
+}
+.link-form input{
+    width: 140px;
+}
+
+.email-address{
+    margin-top: 20px;
+}
+.email-address span::after{
+    content: "*";
+    color:red;
+}
+.email-address input{
+    margin-left: 20px;
+}
+.timing{
+    display: flex;
+}
+.choiсe1{
+    margin-left: 45px;
+}
+.way{
+    display: flex;
+    margin-top: 40px;
+}
+.choiсe2{
+    margin-left: 45px;
+}
+.massage{
+    margin-top: 40px;
+    display: flex;
+}
+
+.massage input{
+    width: 200px;
+    height: 100px;
+    margin-left: 80px;
+}
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 35px;
+background-color: #e7e4e4;
+border-top:1px solid rgb(96, 207, 235);
+}
+.footer button{
+    
+    color: white;
+    height: 22px;
+    width: 85px;
+    background-color:#a5cf82 ;
+    border: yellowgreen;
+}
+.Submit{
+    margin-right: 5px;
+}
