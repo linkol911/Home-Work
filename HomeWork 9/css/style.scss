@@ -1,0 +1,308 @@
+@import "reset";
+ body{
+     font-family: 'Manrope', sans-serif;
+
+ }
+ .header{
+     display: flex;
+     justify-content: space-around;
+ }
+    .header-nav{
+        display: flex;
+        margin:22px 0px 22px 165px;
+            
+        ul{
+            display: flex;
+        }
+        li{
+            margin-right: 34px;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            font-feature-settings: 'liga' off;
+            color: #18191F;
+            flex: none;
+            order: 0;
+            align-self: center;
+            a{
+                color:#18191F;
+                text-decoration: none;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+            } 
+                a:hover{
+                    background-size: 100% 2px;
+                }
+            
+        }
+        select{
+            cursor: pointer;
+            border: none;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            font-feature-settings: 'liga' off;
+            color: #18191F;
+            flex: none;
+            order: 0;
+            align-self: center;
+            flex-grow: 0;
+            margin: 4px 0px;
+        }
+    }
+    .logo{
+        margin-right: 32px;
+    }
+    .download-img{
+        margin: 16px 165px 16px 0px;
+
+        a{
+            text-decoration: none;
+        }
+    }
+    .main{
+        background-color:#0B0D17 ;
+        height: 1190px;
+
+    }
+    h1{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        color: #fff;
+    }
+.wrapper{
+    height: 1110px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.services-container{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px 30px; 
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    padding-top: 56px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+.services-items{
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 32px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    p{
+        padding-top: 12px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        font-feature-settings: 'liga' off;
+        color: #18191F;
+    }
+    a{
+        padding-top: 40px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        font-feature-settings: 'liga' off;
+        color: #8C30F5;
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    a:hover{
+        background-size: 100% 2px;
+    }
+
+}
+.explore-all-btn{
+    background-color: #0B0D17;
+    align-items: center;
+    margin-top: 48px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 16px 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    text-decoration: none;
+
+}
+.logos-section{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    height:110px;
+    margin-top: 40px;
+    ul{
+        
+        display: flex;
+    }
+    li{
+        padding-left: 64px;
+    }
+}
+.features-title{
+    h2{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        color: #18191F;
+    }
+    h3{
+        padding-top: 8px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        color: #18191F;
+    }
+}
+.features-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 64px 30px; 
+        padding-top: 48px;
+        padding-bottom: 64px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.features-items{
+        box-sizing: border-box;
+        width: 350px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+
+}
+.title-text{
+    padding-top: 24px;
+    padding-bottom: 15px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+
+    p{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        color: #18191F;
+    }
+}
+.footer{
+    background-color: #0B0D17;
+    height: 280px; 
+    display: flex;
+    justify-content: space-between;
+}
+.left-block{
+    box-sizing: border-box;
+    padding-top: 55px;
+    margin-left: 165px;
+    ul{
+        display: flex;
+        padding-top: 25px;
+    }
+    li{
+        padding-right:25px ;
+    }
+    a{
+        color: #D9DBE1;
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    a:hover {
+        background-size: 100% 2px;
+    }
+    p{
+        color: #D9DBE1;
+        padding-top: 35px;
+    }
+}
+.right-block{
+    margin-top: 56px;
+    display: flex;
+    width: 160px;
+    height: 140px;
+    flex-direction: column;
+    margin-right: 165px;
+    p{
+    color:#D9DBE1;
+    padding-bottom: 20px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    }
+    li{
+        padding-bottom: 15px;
+    }
+}
